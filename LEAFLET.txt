@@ -3,7 +3,7 @@ POZNAJEMY FORTH
 
 Ta dyskietka zawiera źródła programów w Forth z książki "Poznajemy Forth" Jana Ruszczyca, przetestowane przy użyciu wersji języka "APX Extended fig-Forth Rev. 2".
 
-Na drugiej stronie (zabezpieczonej przed zapisem) znajduje się kopia bezpieczeństwa. Dobrym pomysłem jest wykonanie jeszcze jednej kopii i praca z nią. Trzeba do tego wykorzystać właściwy kopier sektorowy - prawidłowo działa DISKCOPY i sprzętowa modyfikacja "QMEG 4.0.4". Większość innych kopierów nie zadziała - format dyskietek Forth nie jest zgodny z Atari DOS!
+Na drugiej stronie (zabezpieczonej przed zapisem) znajduje się kopia bezpieczeństwa. Dobrym pomysłem jest wykonanie jeszcze jednej kopii. Trzeba do tego wykorzystać właściwy kopier sektorowy - prawidłowo działa DISKCOPY i sprzętowa modyfikacja "QMEG 4.0.4". Większość innych kopierów nie zadziała - format dyskietek Forth nie jest zgodny z Atari DOS!
  
 Oprócz źródeł z książki, załączono kilka aplikacji, opublikowanych w latach 80-tych i 90-tych. Są to m. in.:
 - podzbiór "firmowego" edytora Forth z drobnymi usprawnieniami, jak np. zmiana koloru ramki po poleceniu HEX
