@@ -24,14 +24,21 @@ All the included materials were assembled (often also typed in), embedded into a
 The APX Forth itself is not included (it can be obtained legally though - see Atari Archive/APX and Atari Wiki/Forth for a fixed version). All the software code had been either originally published with the intention of being used for education and wide usage -- or is explicitly public domain (e.g. Fig editor, the assembler, things from the Forth Dimension). Code from the book itself is itself usually adapted from other Forth materials (books, magazines). 
 
 The below code has been used, adapted, referred to or is otherwise recommended to review:
-- Forth Dimensions, Volume IV, Number 2 - Robert Dudley Ackerman, "A Recursive Decompiler"
-- Forth Dimensions, Volume  V, Number 1 - Leo Brodie, "Add a Break Point Tool"
-- Forth Dimensions, Volume  V, Number 4 - Roy W. Sommers, "Vectored Execution and Recursion"
-- Forth Dimensions, Volume  V, Number 6 - Norman L. Hills, "Revisited: A Recursive Decompiler"
+- Forth Dimensions, Volume   I, Number 5 - Paul Bartholdi, "'TO' Solution Continued...... 'Easter'" (FD issues: https://www.forth.org/fd)
+- Forth Dimensions, Volume III, Number 1 - John James, "Correction on Search" 
+- Forth Dimensions, Volume III, Number 1 - Kim Harris, "Programming Aids & Utilities"
+- Forth Dimensions, Volume III, Number 2 - Paul van der Eijk, "Tracing Colon-Definitions"
+- Forth Dimensions, Volume III, Number 3 - S. H. Daniel, "The Forth, Inc. Line Editor"
+- Forth Dimensions, Volume III, Number 5 - William F. Ragsdale, "A Forth Assembler for The 6502"
+- Forth Dimensions, Volume  IV, Number 2 - Robert Dudley Ackerman, "A Recursive Decompiler"
+- Forth Dimensions, Volume   V, Number 1 - Leo Brodie, "Add a Break Point Tool"
+- Forth Dimensions, Volume   V, Number 4 - Roy W. Sommers, "Vectored Execution and Recursion"
+- Forth Dimensions, Volume   V, Number 6 - Norman L. Hills, "Revisited: A Recursive Decompiler"
+- Forth Dimensions, Volume VII, Number 4 - Stephen James, "Atari Painting Forth"
+- Compute!, Issue 30 (Nov 1982) - p. 232 - Michael Riley, "Disk Management" (SERT / TRADE)
 - Micro (6502 Journal), Number 87 (February 1983) - Mike Dougherty, "EDIT: An Atari FORTH Screen-Oriented Editor"
-- FIG (ca. 1978) / William F. Ragsdale, "6502 Assembler"
-- FIG (ca. 1978) / William F. Ragsdale (?), "fig-Forth Editor" 
 - Tajemnice Atari (1992-1993) - Roland Pantola, "EDYTOR-FORTH"
 - Blinking Characters - RM & COMPUTE 12/81 (??? - TBC)
 - FD III/2 for the idea of editor subset (??? - TBC)
 - Search: FDIII1p10/KH (??? - TBC)
+
