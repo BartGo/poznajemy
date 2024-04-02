@@ -1,13 +1,13 @@
 /scroll down for the English text/
 
 Dodatkowe materiały do książki "Poznajemy Forth" Jana Ruszczyca (SOETO 1987, RETRONICS 2024). Kod w Forth oparty o implementację fig-Forth "APX Extended fig-Forth" (Atari Archives / APX, poprawione wersje na AtariOnline.pl oraz AtariWiki.org). Zawarto tu:
-- obraz ATR, działający z emulatorem (Altirra) i nadający się do skopiowania sektorowego na dyskietkę; początkowe ekrany są puste, ekrany 16-17 zawierają spis treści, następne kod z "Poznajemy Forth", dalej wybór kodu z czasopism z lat 80. i 90. (programy te są public domain i/lub oryginalnie były publikowane w celach edukacyjnych)
+- obraz ATR, działający z emulatorem (Altirra) i nadający się do skopiowania sektorowego na dyskietkę (QMEG lub DISKCOPY); początkowe ekrany są puste, ekrany 16-17 zawierają spis treści, następne kod z "Poznajemy Forth", dalej wybór kodu z czasopism z lat 80. i 90. (programy te są public domain i/lub oryginalnie były publikowane w celach edukacyjnych)
 - skrypt ze źródłami, użyty do "budowania" obrazu ATR (wklejany do Altirry z uruchomionym APX fig-Forth)
 - ulotkę, dołączaną do fizycznej dyskietki (w sprzedaży wraz z książką - przez Retronics)
 
 Testy i poprawki w kodzie, adaptacja, kompilacja materiałów została wykonana w całości przez mnie.
 
-Podziękowania dla Retronics za umożliwienie opublikowania kodu.
+Podziękowania dla Retronics za umożliwienie opublikowania części obecnego tu kodu.
 
 -----------------------------------
 
@@ -21,4 +21,4 @@ SOETO 1987, RETRONICS 2024.
 
 All the included materials were assembled (often also typed in), embedded into a script, tested, corrected and commented by me.  My thanks go to RETRONICS for allowing me to expose code from their book here.
 
-The APX Forth itself is not included (it can be obtained legally though). All the software code had been either originally published with the intention of being used for education and wide usage -- or is explicitly public domain (e.g. Fig editor, the assembler). Code from the book itself is rarely super-original as is was usually adapted from other Forth materials (books, magazines). 
+The APX Forth itself is not included (it can be obtained legally though - see Atari Archive/APX and Atari Wiki/Forth for a fixed version). All the software code had been either originally published with the intention of being used for education and wide usage -- or is explicitly public domain (e.g. Fig editor, the assembler, things from the Forth Dimension). Code from the book itself is itself usually adapted from other Forth materials (books, magazines). 
