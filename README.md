@@ -1,6 +1,6 @@
 /scroll down for the English text/
 
-Dodatkowe materiały do książki "Poznajemy Forth" Jana Ruszczyca (SOETO 1987, RETRONICS 2024). Kod w Forth oparty o implementację fig-Forth "APX Extended fig-Forth" (https://www.atariarchives.org/APX/showinfo.php?cat=20029, poprawione wersje na AtariOnline.pl oraz AtariWiki.org). Zawarto tu:
+Dodatkowe materiały do książki "Poznajemy Forth" Jana Ruszczyca (SOETO 1987, RETRONICS 2024). Kod w Forth oparty o implementację fig-Forth "APX Extended fig-Forth" (Atari Archives / APX, poprawione wersje na AtariOnline.pl oraz AtariWiki.org). Zawarto tu:
 - obraz ATR, działający z emulatorem (Altirra) i nadający się do skopiowania sektorowego na dyskietkę; początkowe ekrany są puste, ekrany 16-17 zawierają spis treści, następne kod z "Poznajemy Forth", dalej wybór kodu z czasopism z lat 80. i 90. (programy te są public domain i/lub oryginalnie były publikowane w celach edukacyjnych)
 - skrypt ze źródłami, użyty do "budowania" obrazu ATR (wklejany do Altirry z uruchomionym APX fig-Forth)
 - ulotkę, dołączaną do fizycznej dyskietki (w sprzedaży wraz z książką - przez Retronics)
