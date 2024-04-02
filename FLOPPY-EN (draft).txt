@@ -1,0 +1,50 @@
+*** GETTING TO KNOW FORTH / POZNAJEMY FORTH ***
+
+(draft version -- this translation of the "leaflet", attached to the 2024 RETRONICS floppy has been done from Polish by Chat GPT)
+
+This floppy disk contains source code programs in Forth from the book "Getting to Know Forth" by Jan Ruszczyc, tested using the "APX Extended fig-Forth Rev. 2" language version. On the other side (write-protected), there is a backup copy. It's a good idea to make an additional copy. You need to use an appropriate sector copier for this. It has been verified that the application DISKCOPY and the hardware modification Atari "QMEG 4.0.4" work correctly. Most other sector copying programs might not handle this task - the fig-Forth disk format is not compatible with Atari DOS. In addition to the sources from the book itself (and related "curiosities", including errata for using FENCE/FORGET from chapter 7.3), the code of several programs published in magazines from the 80s and 90s has been included:
+
+- A great SEARCH tool for finding character strings on a floppy disk (word definitions, comments, etc.),
+- A subset of the fig-Forth editor with improvements, such as changing the frame color after the HEX command; this subset allows for typical minor changes using commands like "P", "E", "CLEAR", "COPY", etc.,
+- The .CC command, which displays the names of the current dictionaries CONTEXT and CURRENT,
+- The recursive decompiler Goes Into (an alternative to DECOMP),
+- The FORTH EDITOR by Roland Pantoła (along with the required "Ragsdale Assembler"), a well-thought-out Atari fig-Forth screen editor; described in "Tajemnice Atari" ("Atari Secrets"), issue 11-12/92 and 1-2/93,
+- EDIT by Mike Dougherty (with my improvements) - another editor, slightly slower but easy to modify; help information is provided on screen 59; note that the program needs an unprotected disk and doesn’t always save code changed on the "second half" of the screen (I encourage fixing this bug); it's a very convenient tool for browsing and (carefully, as it can save changes by itself) editing code,
+- An example of using assembly language snippets (cursor blinking; requires an assembler from the APX Forth disk, screen 39),
+- An example of using "vectored execution" technique, useful for passing parameters or changing the functionality of a word during program execution.
+
+The initial screens are blank - this is deliberate, you can save (with the SAVE command) a Forth kernel there - also slightly extended, for example with debugger words and a "favorite" editor. Screens 16 and 17 are "table of contents", so LIST 16 and LIST 17 will allow you to familiarize yourself with the contents of the floppy disk in detail. This list (somewhat peculiar in form, as I tried to "squeeze in" as much information as possible) includes:
+
+- The number of the first screen with the program, e.g., #18 - you can load the code by executing 18 LOAD,
+- The name of the program and/or description of the contents group of screens - often these are just words described in the book, e.g., "KOT, TEKST, KWADRATY",
+- The number of screens - roughly estimates the size of the code (and therefore also compilation time), e.g., [1] means that the entire example or program code takes up only one screen; the last code of the group of screens runs the program or contains the word to start it,
+- The "origin" of the code along with the chapter/magazine/etc. number ("pf" stands for "Getting to Know Forth", "apx" stands for the "factory" Forth disk, "ta" stands for "Atari Secrets", "fd" stands for "Forth Dimension", "comp!" stands for "Compute!", "micro" stands for "Micro"),
+- Information about required code ("prerequisites"), e.g.:
+  - DEBUG - debugger words from the "factory" FORTH, from screen 21 (21 LOAD),
+  - asmPM - assembler words from the "factory" FORTH (assembler author: P. Mullarky), from screen 39 (39 LOAD),
+  - asmWR - assembler words from the "factory" FORTH (assembler author: W. Ragsdale), from screen 75 (75 LOAD); the same code is also included on THIS floppy disk, from screen 70 (70 LOAD), making it easier to load the FORTH EDITOR program.
+
+Some examples run automatically after loading and compiling (e.g., TABLICZKA, ERATOS, HANOI), others require calling - according to the instructions provided in the book and in the included code. Very often, examples of usage and additional comments are included on the floppy disk, so it's worth "exploring" the code screens using LIST or any editor. The screen numbers may be different from those described in the book (mainly applies to the PSY program), and sometimes the code is arranged in a slightly different order. Even a cursory reading of the book and supplements will significantly facilitate the use of these materials.
+
+More information about additional code (e.g., a list of magazines in which it was originally published), new versions of THIS floppy disk, and/or additional information will be posted on the repository https://github.com/BartGo/POZNAJEMY. The name of THIS floppy disk image is the whimsical "PoznajemyFORTH (E6B43BB4-399559F-F62A4B40).ATR". You will also find scripts there, used to generate the disk image - so you can use the code in an emulator or transfer it to your own program.
+
+Necessary to use THIS floppy disk is, of course, the APX Forth itself. The most official source is https://www.atariarchives.org/APX/showinfo.php?cat=20029 - you can download the DCM file (the ATR is corrupted!), convert it to the correct ATR, and transfer it to Atari... A faster solution would be to download an already corrected ATR (let's call it "factory", as it probably corresponds to the original disk) from one of the following locations:
+- Atari Wiki -> https://atariwiki.org -> Forth -> Extended Atari FIG-Forth APX20029 -> Disks
+- Atari Online -> Użytki/Utils -> 4. Programowanie -> "Extended fig-FORTH 2.0 (v2).atr"
+- FujiNet -> apps.irata.online -> Atari_8-bit -> Languages -> FORTH -> APX Extended fig-FORTH -> "APX Extended Fig Forth.atr"
+
+A correct Extended Fig-Forth image file will have the CRC-32 checksum F64B50DA or E6B43BB4. To verify, you can use the 7zip program or do it online (by typing "online crc32 file check" into your favorite search engine and uploading or dropping the file onto one of the resulting pages). Upload this valuable file to an SD card or "transfer it to Atari" in some other way and its D1: station - through SIO2SD, SIO2USB, SDRIVE Micro, FujiNet... Once Forth is running from D1: and the disk with the sources is placed in D2: station, you can switch between them using the DR0 (for D1:) and DR1 (for D2:) commands and use LIST, LOAD, etc. as you like.
+
+A good idea is to copy Extended Fig-Forth to an additional physical floppy disk using the DISKCOPY or QMEG application (the FORTH word DISKCOPY from the "factory" screens 36-37 may also work - to make it not so easy, it's not the previously mentioned application with the same name). This will make it easy to use code from the "factory" Forth disk and at least supplement the disk with sources with a basic Forth kernel. Note - the necessary SAVE command only works for disk D1: (DR0). Protect the copy of the disk, but leave the unprotected copy for current use - or in case of write errors, use the "EMPTY-BUFFERS" command.
+
+I wish you a great adventure with the FORTH language – "May the FORTH be with you!"
+
+Best regards,
+Bartosz Gołda
+in cooperation with Retronics and the Polish Society for the Preservation of Technical Heritage
+
+P.S. The words for handling double numbers (chapters 9.2-9.3 and screens 31-32) do not work as expected and described in the book. The results differ from those anticipated. The causes of this phenomenon are very mysterious; I leave the analysis and repair of this defect to the Readers!
+
+Retronics: https://retronics.eu/
+PTODT: https://ptodt.org.pl/
+BartGo (GH): https://github.com/BartGo/POZNAJEMY
