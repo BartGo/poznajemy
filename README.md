@@ -31,6 +31,8 @@ The APX Forth itself is not included (it can be obtained legally though - see At
 
 The below code has been used, adapted, referred to or is otherwise recommended to review (i.e. as the continuation of presented topics):
 - Forth Dimensions, Volume   I, Number 5 - Paul Bartholdi, "'TO' Solution Continued...... 'Easter'" (FD issues: https://www.forth.org/fd)
+- Forth Dimensions, Volume  II, Number 6 - Kim Harris, "Some New Editor Extensions"
+- Forth Dimensions, Volume  II, Number 6 - John James, "Search"
 - Forth Dimensions, Volume III, Number 1 - John James, "Correction on Search" 
 - Forth Dimensions, Volume III, Number 1 - Kim Harris, "Programming Aids & Utilities"
 - Forth Dimensions, Volume III, Number 2 - Paul van der Eijk, "Tracing Colon-Definitions"
