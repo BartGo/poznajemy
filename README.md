@@ -59,4 +59,5 @@ The below code has been used, adapted, referred to or is otherwise recommended t
 - Blinking Characters - RM & COMPUTE 12/81 (??? - TBC)
 - FD III/2 for the idea of editor subset (??? - TBC)
 - Search: FDIII1p10/KH (??? - TBC)
+- VIC-FORTH 6502 ASSEMBLER 
 
